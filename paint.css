@@ -1,0 +1,132 @@
+#title{
+  background-color: #ff4c68;
+  text-align: left;
+}
+/* heading related */
+h2{
+  font-family: "Montserrat";
+  color: white;
+  font-size: 3rem;
+  line-height: 2;
+}
+h3{
+  color: #ADA2FF;
+}
+
+p{
+  color: black;
+}
+.big-heading{
+  font-family: "Montserrat";
+  font-size: 3rem;
+  line-height:2;
+  color: white;
+}
+.price-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.section-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.container-fluid{
+  padding: 3% 15%;
+}
+/* navbar */
+.navbar{
+  padding-bottom: 4.6rem;
+}
+.nav-item{
+  padding:0 18px;
+}
+/* brand related */
+.navbar-brand{
+  font-family: "Ubuntu";
+  color: Black;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+/* list related */
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Montserrat-light";
+}
+/* button design */
+.Download-button{
+  margin:5% 3% 5% 0;
+}
+/* image related  */
+
+/* features */
+#features{
+    text-align: center;
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+  }
+.icon{
+  color: orange;
+  /* line-height: 2; */
+  margin-bottom: 1rem;
+}
+.icon:hover{
+  color: red;
+}
+/* testimonials section */
+#testimonials{
+  padding: 7% 15%;
+  text-align: center;
+  background-color: orange;
+  color: white;
+}
+/* image size */
+.testimonials-image{
+  width: 30%;
+  border-radius:  100%;
+  margin: 20px;
+}
+#press{
+  background-color: orange;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.techlogo{
+  width: 15%;
+  background-color: orange;
+  margin: 20px 20px 50px;
+}
+#cta{
+  text-align: center;
+  padding: 7% 15%;
+  background-color: #ff4c68;
+}
+.cta-heading{
+  color: white;
+   font-family:  "Montserrat";
+   font-size: 2.5rem;
+   line-height: 1.2;
+
+}
+
+}
+@media (max-width: 1028px) {
+#title{
+  text-align: center;
+}
+.rotated-image{
+  position: static;
+  transform: rotate(0);
+}
+}
+#footer{
+  padding: 7% 9%;
+  text-align: center;
+  background-color: #F7EFE5;
+}
+.social-icon{
+  margin: 20px 10px;
+  font-size: 2.5rem;
+
+}
